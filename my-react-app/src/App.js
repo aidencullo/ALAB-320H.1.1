@@ -1,4 +1,4 @@
-import './App.css'; // Ensure to import the CSS file for styling
+import './styles/App.css';
 import HomePage from './pages/HomePage';
 import EmployeePage from './pages/EmployeePage';
 

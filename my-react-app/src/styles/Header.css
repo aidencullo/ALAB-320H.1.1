@@ -1,0 +1,11 @@
+/* Header.css */
+.header {
+  background-color: white; /* White background color */
+  color: black; /* Black text color for contrast */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Add some padding */
+  font-size: 2rem; /* Increase font size */
+  margin: 0; /* Remove default margin */
+  border: 2px solid #ddd; /* Light gray border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for some depth */
+}
