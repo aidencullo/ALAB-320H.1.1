@@ -1,9 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
-    <h1>hello world</h1>
+    <HomePage />
   );
 }
 
