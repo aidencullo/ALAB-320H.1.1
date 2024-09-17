@@ -1,5 +1,13 @@
+import Header from '../components/Header';
+import SearchBar from '../components/SearchBar';
+import EmployeeList from '../components/EmployeeList';
+
 export default function HomePage() {
   return (
-      <h1>Home Page</h1>
+    <>
+      <Header />
+      <SearchBar />
+      <EmployeeList />
+    </>
   );
 }
