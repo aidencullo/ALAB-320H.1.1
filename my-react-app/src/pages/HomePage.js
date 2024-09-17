@@ -4,10 +4,10 @@ import EmployeeList from '../components/EmployeeList';
 
 export default function HomePage() {
   return (
-    <>
+    <div>
       <Header />
       <SearchBar />
       <EmployeeList />
-    </>
+    </div>
   );
 }

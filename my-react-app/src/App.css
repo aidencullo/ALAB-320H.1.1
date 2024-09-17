@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+/* Ensure body and html occupy the full viewport height and width */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row; /* Arrange items horizontally */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Apply styles to direct children to take up half the screen */
+.app-container > * {
+  width: 50%; /* Each child occupies 50% of the width */
+  height: 100%; /* Each child takes full height */
+  box-sizing: border-box; /* Ensure borders or padding don't affect sizing */
 }
