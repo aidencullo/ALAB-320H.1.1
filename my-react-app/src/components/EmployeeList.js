@@ -1,3 +1,5 @@
+import EmployeeListItem from './EmployeeListItem'; // Import the EmployeeListItem component
+
 const employees = [
   {
     id: 1,
@@ -55,10 +57,7 @@ export default function EmployeeList() {
   return (
     <div>
       {employees.map((employee) => (
-        <div key={employee.id}>
-          <h2>{employee.name}</h2>
-          <p>{employee.email}</p>
-        </div>
+        <EmployeeListItem key={employee.id} employee={employee} />
       ))}
     </div>
   );
